@@ -9,6 +9,11 @@ table 50001 "New Table"
             DataClassification = ToBeClassified;
 
         }
+        field(2; Description; Text[50])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Description';
+        }
     }
 
     keys
